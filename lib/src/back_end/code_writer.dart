@@ -549,10 +549,10 @@ enum Indent {
 
   /// The contents of a block-like structure: block, collection literal,
   /// argument list, etc.
-  block(2),
+  block(4), // MK: was 2
 
   /// A split cascade chain.
-  cascade(2),
+  cascade(4), // MK: was 2
 
   /// Indentation when splits occur inside for-in and if-case clause headers.
   controlFlowClause(4),
